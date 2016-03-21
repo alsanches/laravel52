@@ -24,13 +24,13 @@
 
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-
-                            <li class="active"><a href="#">Cadastro</a></li>
-                            <li><a href="#">Entrada</a></li>
-                            <li><a href="#">Saída</a></li>
-
+                            @foreach($navs as $nav)
+                                <li><a href="{{$nav->url}}">{{$nav->name}}</a></li>
+                            @endforeach
                         </ul>
+
                     </div>
+
                 </div>
             </nav>
         </div>
