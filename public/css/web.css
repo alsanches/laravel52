@@ -1,0 +1,44 @@
+body{
+    background: #b6b6b6 ;
+}
+.navbar-top{
+    background: #033145 !important;
+}
+
+.navbar{
+    border-radius: 5px;
+    border: 0px;
+    border-top: 2px solid #033145 ;
+}
+
+.navbar-top a{
+    color: #FFFFFF !important;
+    border-top: 3px solid #033145 ;
+}
+
+.navbar-top a:hover {
+    background: #f8f8f8 !important;
+    color: #033145 !important;
+    border-top:  3px solid #ff6666;
+}
+
+.navbar-toggle {
+    position: relative;
+    color: yellow !important;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*.navbar-top .active{*/
+    /*background: #e7e7e7 !important;*/
+    /*color: #033145 !important;*/
+
+
+/*}*/
